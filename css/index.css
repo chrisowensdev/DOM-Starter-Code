@@ -7,3 +7,14 @@ body {
   margin: 0 4px;
   padding: 2px 8px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin: 20px;
+}
