@@ -8,6 +8,10 @@ body {
   padding: 2px 8px;
 }
 
+.placeholder.filled {
+  background-color: yellow;
+}
+
 form {
   display: flex;
   flex-direction: column;
