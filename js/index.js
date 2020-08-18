@@ -14,7 +14,8 @@ myButton.addEventListener('click', function (event) {
 
   noun1.innerHTML = noun1Input.value;
   noun2.innerHTML = noun2Input.value;
-  verb1.innerHTML = verb1Input.value
+  verb1.innerHTML = verb1Input.value;
+  noun1.classList.add('filled');
 });
 
 radButton.addEventListener('click', function (e) {
